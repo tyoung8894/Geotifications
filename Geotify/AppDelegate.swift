@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Geotify
 //
-//  Created by Robert Feather on 10/19/16.
-//  Copyright © 2016 Robert Feather. All rights reserved.
+//  Created by Tyler Young on 10/19/16.
+//  Copyright © 2016 Tyler Young. All rights reserved.
 //
 
 import UIKit

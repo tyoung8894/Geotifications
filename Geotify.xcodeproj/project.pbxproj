@@ -14,6 +14,9 @@
 		1719C02C1DB7EE0600057892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1719C02A1DB7EE0600057892 /* LaunchScreen.storyboard */; };
 		1719C0371DB7EE0600057892 /* GeotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719C0361DB7EE0600057892 /* GeotifyTests.swift */; };
 		1719C0421DB7EE0700057892 /* GeotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719C0411DB7EE0700057892 /* GeotifyUITests.swift */; };
+		1719C0501DB7F65E00057892 /* AddGeotificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1719C04F1DB7F65E00057892 /* AddGeotificationTableViewController.swift */; };
+		1782CDAE1DBE8BD4001849AA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1782CDAD1DBE8BD4001849AA /* Utilities.swift */; };
+		D81526171DC1295300E98263 /* Geotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81526161DC1295300E98263 /* Geotification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1719C03D1DB7EE0700057892 /* GeotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1719C0411DB7EE0700057892 /* GeotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeotifyUITests.swift; sourceTree = "<group>"; };
 		1719C0431DB7EE0700057892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1719C04F1DB7F65E00057892 /* AddGeotificationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGeotificationTableViewController.swift; sourceTree = "<group>"; };
+		1782CDAD1DBE8BD4001849AA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D81526161DC1295300E98263 /* Geotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geotification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				1719C0211DB7EE0600057892 /* AppDelegate.swift */,
 				1719C0231DB7EE0600057892 /* ViewController.swift */,
+				D81526161DC1295300E98263 /* Geotification.swift */,
 				1719C0251DB7EE0600057892 /* Main.storyboard */,
 				1719C0281DB7EE0600057892 /* Assets.xcassets */,
 				1719C02A1DB7EE0600057892 /* LaunchScreen.storyboard */,
 				1719C02D1DB7EE0600057892 /* Info.plist */,
+				1719C04F1DB7F65E00057892 /* AddGeotificationTableViewController.swift */,
+				1782CDAD1DBE8BD4001849AA /* Utilities.swift */,
 			);
 			path = Geotify;
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 			files = (
 				1719C0241DB7EE0600057892 /* ViewController.swift in Sources */,
 				1719C0221DB7EE0600057892 /* AppDelegate.swift in Sources */,
+				1782CDAE1DBE8BD4001849AA /* Utilities.swift in Sources */,
+				D81526171DC1295300E98263 /* Geotification.swift in Sources */,
+				1719C0501DB7F65E00057892 /* AddGeotificationTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +517,7 @@
 				1719C0481DB7EE0700057892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1719C0491DB7EE0700057892 /* Build configuration list for PBXNativeTarget "GeotifyTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				1719C04B1DB7EE0700057892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1719C04C1DB7EE0700057892 /* Build configuration list for PBXNativeTarget "GeotifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				1719C04E1DB7EE0700057892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
